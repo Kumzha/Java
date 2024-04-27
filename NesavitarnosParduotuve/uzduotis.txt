@@ -1,0 +1,17 @@
+//7. 
+
+// Nesavitarnos parduotuvė (ADT: eilė, prioritetinė eilė). 
+// Procesas1: pardavėja pilnai aptarnauja klientą: paduoda prekes, išmuša čekį, paima pinigus. 
+// Procesas2: pardavėja surašo pirkėjo pageidaujamas prekes popieriaus lapelio, su šiuo lapeliu klientas eina sumokėti prie kasininkės, 
+// kuri išmuša čekį ir paima pinigus, su šiuo čekiu pirkėjas grįžta prie jį aptarnavusios pardavėjos ir, šiai baigus aptarnauti eilinį pirkėją, 
+// be eilės gauna prekes. Patyrinėti abu procesus tiek klientų pasitenkinimo požiūriu (minimalus, vidutinis ir maksimalus pilno aptarnavimo laikas), 
+// tiek ekonominiu požiūriu (kiekvienas kasos aparatas kainuoja). Tegu bendras darbuotojų skaičius yra fiksuotas. Visi kiti rodikliai, 
+// nuo kurių priklauso procesas, įvedami kaip programos parametrai.
+
+// Testas1 Simuliavimo trukmė N=30 min. Tikimybė ateiti pirkėjui 100 %. Pardavėjų 5 (procese2 yra 3 pardavėjos ir 2 kasininkės). 
+// Trukmė pilnai aptarnauti 3 min. (procese2: trukmė surašyti prekes pas pardavėją 1 min., trukmė sumokėti kasininkei 1 min., trukmė gauti prekes iš pardavėjos 1 min.). 
+
+// Testas2. Kaip Teste1, bet pardavėjų 3 (procese2 yra 2 pardavėjos ir 1 kasininkė). 
+
+// Testas3. Kaip Teste1, bet simuliavimo trukmė 60 min. ir trukmė pilnai aptarnauti 11 min. (procese2: trukmė surašyti prekes pas pardavėją 5 min., 
+// trukmė sumokėti kasininkei 5 min., trukmė gauti prekes iš pardavėjos 1 min.) Testas4. Kaip Teste3, bet tikimybė ateiti pirkėjui 20 %.
