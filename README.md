@@ -3,7 +3,9 @@
 Edit number1
 ----------------------------------------------------------------------------------------------------------
 
-Started learning object oriented languages recently. Mainly focused on understanding the syntax of Java, and the possibilities of object relations
+Started learning object oriented languages recently. Mainly focused on understanding the syntax of Java, and the possibilities of object relations, working on a Code, that does not specificaly do anything yet, just to test out features of java important. End goal is to create a simulation of an animal ecosystem. 
+
+Estimated finish 2024.05.07
 
 
 Edit number2
